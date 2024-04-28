@@ -1,0 +1,21 @@
+ ------- Identação ------- 
+
+Em Python a identação é obrigatoria
+
+ ------- Bloco de comando ------- 
+
+ 4 espaços em branco por nivel de identação
+
+def sacar(self, valor : float) -> None: # inicio do metodo
+
+_4__if self.saldo >= valor: # inicio do if
+
+    _4__self.saldo -= valor
+
+    # fim do if
+
+# fim do if
+
+
+
+

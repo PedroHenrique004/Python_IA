@@ -1,0 +1,13 @@
+-------  If ternario ------- 
+
+Uma condicional escrita de forma simples 
+
+No Java:
+
+? = if
+: = else
+
+
+status = "Sucesso" if saldo >= saque else "Falha"
+
+print (f"{status} ao realizar o saque")

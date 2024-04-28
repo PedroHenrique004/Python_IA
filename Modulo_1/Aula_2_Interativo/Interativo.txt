@@ -1,0 +1,7 @@
+Executa em modo que possibilite o dev escrever o codigo e ver o resultado na hora
+
+basta escrever python no terminal
+
+ou
+
+python ii arquivo_que_quero_rodar

@@ -1,0 +1,49 @@
+ ------- Aritmeticos -------
+
+ + | - | * | / | % (modulo = resto) | ** (exponenciacao)
+-> Existem ordem de expressao 
+
+ ------- Comparação  -------
+
+ == | != | > | >= | < | <=
+
+ ------- Atribuição  -------
+
+ = | += | -= | *= | /= //= | %= | **=
+
+ ------- Lógico  
+
+ and(&&) (Ambos verdadeiros) | or (||) (Apenas 1 verdadeira) | not (negação) 
+
+ ------- Identidade  -------
+
+ Ocupam posição na memoria?
+
+  is | is not 
+
+ curso = "Curso de Python"
+ nome_curso = curso 
+ saldo, limite = 200,200
+
+ curso is nome_curso
+
+ curso is not nome_curso
+
+ limite is saldo
+
+  ------- Associacao  -------
+
+    Verifica se um obj esta em um sequencia ou nao
+
+    in | not in
+
+    frutas = ["laranja", "uva", "limão"]
+
+    print("maça" not in frutas)
+    true -> ele não esta é verdade
+
+    print("uva" not in frutas)
+    false
+
+    print("uva" in frutas)
+    true

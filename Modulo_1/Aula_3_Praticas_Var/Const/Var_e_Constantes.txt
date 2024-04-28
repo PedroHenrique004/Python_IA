@@ -1,0 +1,20 @@
+Variaveis 
+
+-> Caixinhas que recebem um valor
+-> Podem ser alteradas
+-> Python não precisa da definição do tipo de variavel
+-> idade = 19 já serve
+
+Constante 
+
+-> Armazena valores
+-> Valor é imutavel
+-> Não existem em Python
+-> Para deixa-la constante basta escrever uma variavel com todas as letras em maisculo
+
+Boas praticas
+
+-> snake case -> separar_por_underline_minusculo
+-> Nomes sugestivos
+-> Constantes todas maiusculas
+

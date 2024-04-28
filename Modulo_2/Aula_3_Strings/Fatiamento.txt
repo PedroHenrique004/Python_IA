@@ -1,0 +1,19 @@
+----- Fatiamento -----
+
+Tecnica para retornar substrings (partes da original), com inicio(start), fim(stop) e passo(step)
+
+nome = "Pedro Henrique"
+
+nome[0] -> "P" -> caracter na posicao 0
+
+nome[:4] -> "Pedro" -> Ate o 4 caracter
+
+nome[5:] -> "Henrique" -> A partir do 5 caracter
+
+nome[3:7] -> "ro He" -> Inicio e fim
+
+nome[3:7:2] -> "r e" -> Inicio e fim com espaçamento de 2
+
+nome[:] -> "Pedro Henrique"
+
+nome[:: -1] -> "euqirneH ordeP" -> tecnica de inversão

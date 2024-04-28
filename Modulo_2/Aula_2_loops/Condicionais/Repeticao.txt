@@ -1,0 +1,41 @@
+------- Codigos -------
+
+.upper() -> Le como caixa alta
+.lower() -> Le como minuscula
+break -> Para a execução
+
+------- Estruturas de repetiçao -------
+
+Usadas para repetir um código uma determinada quantidade de vezes
+
+-- range -> Cria uma ordem de inicio e fim
+
+list(range(10))
+
+for numero in range (0, 51, 5): # o 3 parametro faz ele pular de 5 em 5
+    print(numero, end=" ")
+
+-- for -> Usado quando sabemos previamente o numero de repetições
+
+
+texto = input("Digite um texto: ")
+VOGAIS = "AEIOU"
+
+for letra in texto:
+    if letra.upper() in VOGAIS:
+        print(letra, end="")
+
+print()
+
+-- while -> Repete até um objetivo pre-definido
+
+opcao = -1
+
+while opcao != 0:
+    opcao = int(input("[1] Sacar \n Extrato \n[0] Sair \n: "))
+
+    if opcao == 1:
+        print("Sacando...")
+    elif opcao == 2:
+        print("Exibindo o extrato...")
+

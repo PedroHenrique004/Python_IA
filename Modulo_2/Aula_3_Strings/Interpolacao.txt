@@ -1,0 +1,15 @@
+----- Interpolar -----
+
+3 formas :
+
+% -> print("Ola %s" % (nome)) -- Igual em C 
+
+.format print("Ola {}".format(nome))
+
+--- Atual : f print(f"Ola {nome}")
+
+----- Codigos ------
+
+print(f"Valor de Pi : {Pi: .2f}") -> 3.14
+
+print(f"Valor de Pi : {Pi:10.2f}") -> __________3.14

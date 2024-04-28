@@ -1,0 +1,9 @@
+ -------  Condicionais ------- 
+
+São estruturas que permitem fluxo de controle
+
+if -> Se a condição for verdadeira, realizara o codigo dentro dele
+
+else -> Caso a condição do if for falsa, realizara o código dentro dele
+
+elif -> Caso o if seja falso, mas eu tenha outra condição possivel, ela estara aqui e sera executada

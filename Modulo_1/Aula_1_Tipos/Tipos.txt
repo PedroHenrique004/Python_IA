@@ -1,0 +1,9 @@
+Tipos de dados 
+
+Texto -> str
+Numerico -> int, float, complex
+Sequencia -> list, tuple, range
+Mapa -> dict
+Coleção -> set , frozenset
+Booleano -> bool
+Binario -> Bytes, bytearray, memoryview

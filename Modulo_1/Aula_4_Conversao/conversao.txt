@@ -1,0 +1,38 @@
+Conversao 
+
+As vezes é preciso converter o tipo de uma variavel para manipula-la de outra forma
+
+Se a conversao não for possivel o Py me dara um erro
+
+-> type(int) -- exibira o tipo de int
+
+preco = 10.3
+print(preco)
+
+-- 10.3
+
+preco = int(preco)
+print(preco)
+
+-- 10
+
+print(preco / 2)
+
+-- 5.0
+
+print(preco // 2)
+
+-- 5
+
+--- Numero para string
+
+valor = 10.50
+idade = 28
+
+print(str(valor))
+
+-- 10.50
+
+print(str(idade))
+
+-- 28

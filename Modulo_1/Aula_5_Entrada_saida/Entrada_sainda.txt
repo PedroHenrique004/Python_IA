@@ -1,0 +1,15 @@
+Ler entradas
+
+-> input
+
+Le uma entrada que o usuario digitar
+
+nome = input("Informe seu nome: ")
+
+-> print 
+
+Exibe ao usuario
+
+print(nome, sobrenome)
+print(nome, sobrenome, end= ".../n")
+print(nome, sobrenome, sep="#")

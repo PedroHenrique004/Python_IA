@@ -1,0 +1,15 @@
+----- Codigos ------
+
+curso = "pYTHOn"
+
+print(curso.upper()) -> PYTHON
+
+print(curso.lower()) -> python
+
+print(curso.title()) -> Python (1 maiuscula)
+
+print(curso.strip()) -> Tira os espaços ---------- lstrip(da esquerda) rstrip(da direita)
+
+print(curso.center(10, "#")) -> "##Python##" ------ ocupa a string com o tamanho e caracter que passei de argumento
+
+print(".".join(curso)) -> "P.y.t.h.o.n" -> Coloca o carcter que escolhi entre os caracteres da string
