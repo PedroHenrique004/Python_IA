@@ -1,0 +1,30 @@
+Codigos(funções) :
+
+len -> mede o tamanho de um item
+sorted -> Ordena
+
+###### Metodos : ######
+
+[].append(item) -> Adiciona item a lista
+
+[].clear() -> Esvazia a lista
+
+[].copy()  -> Retorna uma lista com os mesmos valores mas é uma lista diferente (altera-la não vai alterar a lista inicial)
+
+[].count(item) -> Mostra quantos itens iguais tem na lista
+
+[].extend(item1, item2) -> Adiciona varios itens a lista ao mesmo tempo, não exclui repetidos
+
+[].index(item) -> Me mostra o indice da primeira ocorrencia daquele item na lista
+
+[].pop() -> exclui o ultimo item adicionado (Uma pilha de pratos, voce so tira o de cima)
+
+[].pop(0) -> Exclui o item no indice passado
+
+[].reverse() -> Inverte os itens no indice (o primeiro vira o  ultimo e vice-versa)
+
+[].sort -> Ordem alfabetica
+
+    sort(reverse=true) -> ordena de tras pra frente # Posso juntar o reverse e o key
+
+    sort(key=lambda x: len(x)) -> ordena pelo tamanho, x é um parametro e lambda é uma função

@@ -1,0 +1,56 @@
+Codigos :
+
+Append -> Adiciona um item a uma lista
+enumerate -> gera valores a indices de uma lista
+
+####### Listas #######
+
+Sequência que armazena qualquer objeto(tudo em Python é objeto)
+
+-> list(itens) -> frutas = list("uva", "maça")
+
+-> nome = [itens] -> frutas = ["uva", "maça"]
+
+####### Percorrer #######
+
+carros = ["gol", "celta", "palio"]
+
+for carro in carros
+    print(carro)
+
+-> Nesse caso chamei cada elemento na lista de carros de carro
+
+for indice, carro in enumerate(carros):
+    print(f"{indice}: {carro}")
+
+-> Exibi junto ao indice
+
+##### Filtrar #####
+
+numeros = [1,2,3,4,5,6]
+pares = []
+
+for numero in numeros:
+    if numero % 2 == 0:
+        pares.append(numero)
+
+####### Acessar valores #######-
+
+-> acesso direto -> frutas[0] -> "uva"    # frutas[-1] -> "maça" -> Pega o ultimo elemento
+
+####### Listas Aninhadas #######-
+
+-> São listas dentro de listas, ou matrizes
+
+matriz = [
+
+    [1,2,3],
+    ["a", "b", "c"],
+    [4,5,6]
+]
+
+####### Fatiamento #######-
+
+lista = [p, y, t,h,o,n]
+
+-> O fatiamento funciona igual em strings (Modulo_2 fatiamento.txt)

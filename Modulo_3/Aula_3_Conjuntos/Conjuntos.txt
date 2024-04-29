@@ -1,0 +1,68 @@
+#### Conjuntos ####
+
+-> Coleção de objetos unicos, nao existe repetição
+-> Não passa uma lista ordenada
+
+set([1,2,3,1,3,4]) # {1,2,3,4}
+
+set("Abacaxi") # {b,a,c,x,i}
+
+set("Abacaxi", "uva", "uva") # {"Abacaxi", "uva"}
+
+------- Acessar dados ----------
+
+numeros = {1 , 2, 3, 2}  // o {} indica ser um set
+print(numeros[0]) # não funciona em set entao converte pra list
+
+numeros = list(numeros) # conversao
+print(numeros[0]) # agr roda
+
+
+##### Metodos ######
+
+len, copy, remove, in, pop são iguais ao list
+
+{}.union() -> Junta dois sets
+
+    conjunto_a = {1,2,3}
+    conjunto_b = {4,5,6}
+    conjunto_a.union(conjunto_b) # {1,2,3,4,5,6}
+
+{}.intersection() -> Exibe partes iguais de conjuntos diferentes
+
+    conjunto_a = {1,2,3}
+    conjunto_b = {4,5,6,1}
+    conjunto_a.intersection(conjunto_b) # {1}
+
+{}.add() -> Adiciona ao set
+
+    sort = {1,2}
+
+    sort.add(3) # {1,2,3}
+
+{}.discard(item) -> descarta do set o elemento que passar no argumento
+
+{}.difference() -> Exibe partes diferentes de conjuntos
+
+    conjunto_a = {1,2,3,4}
+    conjunto_b = {1,2,3,4}
+    conjunto_a.difference(conjunto_b) # {4} não exibe o 5
+
+    {}.symmetric_difference9 -> exibe todas as diferenças
+
+        conjunto_a = {1,2,3,4}
+        conjunto_b = {1,2,3,4}
+        conjunto_a.difference(conjunto_b) # {4,5}
+
+{}.issubset() -> Analisa se um conjunto faz parte de outro  // {}isuperset faz o contrario
+
+    conjunto_a = {1,2,3}
+    conjunto_b = {1,2,3,4,5,6}
+    conjunto_a.issubset(conjunto_b) # True 
+
+{}.isdisjoint() -. ve se nao tem elementos em comum
+
+    conjunto_a = {1,2,3}
+    conjunto_b = {4,5,6}
+    conjunto_a.isdisjoint(conjunto_b) # True 
+

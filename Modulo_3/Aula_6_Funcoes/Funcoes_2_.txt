@@ -1,0 +1,43 @@
+### Parametros especiais
+
+Pode ser por posicional(apenas o valor), por nomeado(com a chave) ou pelos dois
+
+def criar_carro
+
+    (modelo, ano,placa, / marca,motor,combustivel) # O que esta antes da / é obrigado a ser passado so por posicao
+
+    (*, modelo, ano,placa, marca,motor,combustivel) # O * obriga todos a receberem uma chave e valor 
+
+    ( modelo, ano,placa, / marca,motor * ,combustivel) # Antes do / sao posicionais, o meio é opcional e depois do * é obrigatio chave_valor
+
+
+#### Objetos de 1 classe
+
+Podem ser atribuidas como variaveis, como parametros, como valores, retorno, e ate como funções
+
+-> Exemplo
+
+def somar(a,b):
+    return a + b
+
+def exibir_resultado(a,b, funcao):
+    resultado = funcao(a,b)
+    print(f"O resultado de {a} + {b} = {resultado}")
+
+exibir_resultado(10,10, somar)
+
+
+### Escopo local e global
+
+-> Local = dentro de funções e so sao acessadas na funcao
+-> Global = todo o codigo pode usa-la e preciso usar o global
+
+    salario = 2000
+
+    des salario_bonus(bonus)
+
+        global salario # Sem isso não funciona
+        salario += bonus
+        return salario
+
+-> posso usar o global variavel para torna-la variavel mas isso nao é uma boa pratica

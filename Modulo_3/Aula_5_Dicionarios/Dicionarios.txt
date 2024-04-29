@@ -1,0 +1,35 @@
+### Dicionario ####
+
+-> Chave tem que ser imutavel e o valor mutavel
+
+-> Par chave-valores  -- (chave, valor)
+
+pessoa = {"nome": "Guilherme", "idade": 28}
+
+pessoa = dict(nome="Guilherme", idade=28)
+
+
+##### Acessar valor #####
+
+pessoa["nome"] -> Acessei a chave nome e vou receber o valor Guilherme
+
+pessoa["nome"] = "Pedro" -> Alterei o valor mas a chave é a mesma
+
+
+###### Dicionarios alinhados #######
+
+contatos = {
+
+    "Pedro" : {idade = 19, cpf = "11111111111"}
+}
+
+extra = contatos["Pedro"]["idade"]
+
+##### Iterar ######
+
+for chave, valor in contatos.items():
+    print(chave,valor)
+
+
+
+

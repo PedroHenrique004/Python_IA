@@ -1,0 +1,22 @@
+##### TUPLAS #####
+
+Irmã de listas
+
+Tupla é imutavel, não pode ser alterada apos a construção (tipo uma const)
+
+-- tuple(itens)
+-- frutas = ("uva", "laranja",) -> a , no final declara uma tupla
+
+tuple("Python")
+
+tuple([1,2,3,4])
+
+// O resto é igual a lista
+
+#### metodos #####
+
+.count()
+
+.index()
+
+len

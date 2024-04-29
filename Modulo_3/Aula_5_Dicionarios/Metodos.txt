@@ -1,0 +1,35 @@
+#### Metodos ######
+
+pop -> passa a chave e ele exclui
+
+in -> Verifica se uma chave existe ou nao em um dicionario
+
+    resultado = "nome" in contatos # true pq existe uma chave nome em contatos
+
+del -> Exclui do dicionario 
+
+    se eu passar a chave e o valor ele vai excluir so o valor dessa chave
+    se eu passar so a chave, aquela chave sera excluida
+
+{}.clear() -> Apaga os valores
+
+{}.copy() -> Cria uma copia
+
+{}.fromkeys() -> Cria chaves sem valor ou um valor do seu desejo
+
+{}.get() -> Acessa valores de forma mais elevada (Usada quando nao tem certeza da existencia daquela chave)
+
+{}.itens() -> Retorna uma lista de tuplas 
+
+{}.keys() -> Retorna só as chave
+
+{}.values() -> Retorna só os valores
+
+{}.setdefault ->
+
+    contatos = {"nome": "Guilherme", "idade": 28}
+    contatos.setdefault("nome" , "Pedro") # retorna Guilherme pq a chave nome ja existe e tem um valor
+    contatos.setdefault("cor", "parda") # {"nome": "Guilherme", "idade": 28, "cor", "parda"} Adicionou pq a chave cor nao existia
+
+
+

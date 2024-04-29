@@ -1,0 +1,25 @@
+######### Funções ###########
+
+Bloco de código que tem nome e parametros 
+
+-> Evita repetição
+-> Facilita a legibilidade
+-> Programar em funções é programar de maneira estruturada
+
+### DEF
+
+def nome_funcao(parametros):
+    codigo
+
+-> Se o parametro nao tiver um valor_base sou obrigado a passa-lo na chamada da função
+
+    # return -> Quando a def me gera um novo valor 
+
+    # parametros -. Podem ser passados do jeito chave_valor
+
+
+## Parametros Args e Kwargs
+
+*args -> Tupla // args e kwargs sao apenas nomes, podem ser trocados, o que importa é o *
+
+**Kwargs -> Dicionario
