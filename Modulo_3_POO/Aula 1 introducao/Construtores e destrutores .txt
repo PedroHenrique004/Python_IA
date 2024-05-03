@@ -1,0 +1,28 @@
+### Construtores 
+
+    Executado quando uma nova instancia da classe é criada
+
+        usamos o __init__ -> é um inicializador 
+
+class Cachorro:
+
+    def __init__(self,nome,cor,acordado=True)
+        self.nome = nome
+        self.cor = cor
+        self.acordado = acordado
+
+### Destrutores
+
+    Executado quando uma instancia da classe é destruida
+
+    Não é tao usado em Py pq ele tem um proprio coletor de lixo
+
+    No c precisa excluir por causa do lixo de memoria
+
+class Cachorro:
+
+    def __del__(self):
+        print("Destruindo a instancia")
+
+c = Cachorro()
+del c

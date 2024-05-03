@@ -1,0 +1,9 @@
+### Modificadores de acesso
+
+Não existem em Python igual no Java e no C
+
+Usamos convenções no nome do recurso 
+
+publico: nome
+privado : _nome
+

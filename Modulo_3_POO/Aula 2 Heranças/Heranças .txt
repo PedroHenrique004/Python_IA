@@ -1,0 +1,18 @@
+### Heranças 
+
+Capacidade de uma classe filha herdar as caracteristicas e comportamentos da classe pai(classe base)
+
+# Beneficios
+
+Reutilização de codigo
+Adicionar mais recursos a uma classe sem modifica-las
+Se B herda de A, o que herdar de B vai herdar de A de tabela
+
+
+Sintaxe :
+
+    class A:
+        pass
+
+    class B(A):
+        pass

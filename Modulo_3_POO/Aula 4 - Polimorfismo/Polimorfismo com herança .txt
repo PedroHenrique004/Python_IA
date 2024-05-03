@@ -1,0 +1,24 @@
+###  Explicando
+
+Uma classe pai que tem um metodo, a filha vai ter tambem, mas sera usado de outra forma
+
+Exemplo:
+
+class Passaro:
+    def voar(self): pass
+
+class Pardal(Passaro):
+    def voar(self):
+        print("PArdal voa")
+
+class Aveztruz(Passaro):
+    def voar(self):
+        print("Aveztruz não voa")
+
+
+## Não interessa se voa ou nao, isso é metodo passado que sabe
+def plano_de_voo(passaro):
+    passaro.voar()
+
+plano_de_voo(Pardal())
+plano_de_voo(Aveztruz())

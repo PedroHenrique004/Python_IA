@@ -1,0 +1,12 @@
+### O que é polimorfismo
+
+Muitas formas
+
+Na programação mesmo nome de função sendo usado para tipos diferentes
+
+Se recebe um int trabalha de uma forma, se recebe str trabalha de outra
+
+Exemplo:
+
+len -> Se usado em str ele le a qntd de caracteres
+       Se usado em uma lista de int vai me falar a qntd de elementos

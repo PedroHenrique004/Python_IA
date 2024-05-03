@@ -1,0 +1,22 @@
+### Herança simples:
+
+    Quando uma classe filha herda apenas uma classe pai
+
+    class A:
+        pass
+
+    class B(A):
+        pass
+
+### Herança multipla:
+
+    Quando uma classe herda de varias classes pai
+
+    class A:
+        pass
+
+    class B:
+        pass
+
+    class C(A, B):
+        pass

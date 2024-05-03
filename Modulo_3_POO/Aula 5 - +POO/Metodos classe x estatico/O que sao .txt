@@ -1,0 +1,31 @@
+### O que sao
+
+### Diferenças entre metodos de classe x estaticos
+
+Classe -> Recebe o 1 paramtero q aponta para uma classe e acessa e modifica o estado da classe
+
+Estatico -> Nao faz essas coisas
+
+### Quando usar 
+
+Classe -> Metodos de fabrica ex: Retorna uma instancia da classe??
+
+Estatico -> Funcoes utilitarias ex: Uma funcao que valida se a pessoa é maior de idade
+
+## Metodos de classe
+
+Estao ligados a classe nao ao objeto.
+
+Eles tem acesso ao estado de classe , pois o parametro que receberam aponta para uma classe e nao para a instancia do obj
+
+tipo o "self" mas é chamado de "cls"
+
+
+## Metodos estaticos
+
+Nao recebe o 1 argumento
+
+vinculado a classe e nao ao obj dela 
+
+nao pode acessar ou modificar o estado da classe
+

@@ -1,0 +1,4 @@
+### ABC -> abstrat classes
+
+Declaro com "@abstratmethod"
+

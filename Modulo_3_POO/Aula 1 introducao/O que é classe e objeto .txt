@@ -1,0 +1,48 @@
+#### Paradigmas da POO ####
+
+Estrutura o codigo abstraindo problemas em objetos do mundo real
+
+## Classe e objetos
+
+    Classe === Define as caracteristicas e comportamentos de um objeto mas não podemos usa-las diretamente
+
+    Objeto === Podem ser usados diretamente e possuem as caracteristicas definidas nas classes
+
+        Imagine uma casa sendo construida:
+
+            A planta é a classe
+
+            A construcao é o Objeto
+
+Exemplo:
+
+-> Classe
+
+class Cachorro:
+
+    def __init__(self, nome, cor, acordado = true):
+        self.nome = nome
+        self.cor = cor
+        self.acordado = acordado
+
+    def latir(self):
+        print("Auau")
+    
+    def dormir(self):
+        self.acordado = false
+        print("Zzzzzzzzzz....")
+
+
+-> Objeto
+
+cao_1 = Cachorro("Cristal", "preto", false)
+cao_2 = Cachorro("Toddy", "marrom")
+
+cao_1.latir()
+
+print(cao_2.acordado)
+cao_2.dormir
+print(cao_2.acordado)
+
+
+

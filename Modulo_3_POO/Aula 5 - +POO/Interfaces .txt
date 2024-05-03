@@ -1,0 +1,11 @@
+### O que são:
+
+"Interface" do Java que não existe no Python
+
+Definem O QUE uma classe deve fazer, nao o como **
+
+Um contrato onde temos metodos (o que deve ser feito) declarados 
+
+Usamos classes abstratas para criar contratos 
+
+Classes abstratas nao podem ser instanciadas

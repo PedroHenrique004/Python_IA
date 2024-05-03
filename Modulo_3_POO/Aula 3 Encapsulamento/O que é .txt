@@ -1,0 +1,11 @@
+###  O que é
+
+Proteção de acesso, limita quem pode alterar ou nao uma variavel
+
+exemplo:
+    Uma variavel que voce so quer alterar em 1 função, em 1 objeto especifico
+
+    Uma class Conta
+            saldo: float  # Mas não libero esse acesso ao usuario sem passar pelos outros metodos
+            depositar(valor: float)
+            sacar(valor: float)
